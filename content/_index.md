@@ -12,18 +12,18 @@ sections:
     content:
       text: Welcome to
       title: SKKU COMPUTER ARCHITECTURE & SYSTEMS LAB
-      # primary_action:
-      #  text: Get Started
-      #  url: https://hugoblox.com/templates/
-      #  icon: rocket-launch
-      # secondary_action:
-      #  text: Read the docs
-      #  url: https://docs.hugoblox.com
-      # announcement:
-      #  text: "Announcing the release of version 1."
-      #  link:
-      #    text: "Read more"
-      #    url: "/blog/"
+      primary_action:
+       text: Get Started
+       url: https://hugoblox.com/templates/
+       icon: rocket-launch
+      secondary_action:
+       text: Read the docs
+       url: https://docs.hugoblox.com
+      announcement:
+       text: "Announcing the release of version 1."
+       link:
+         text: "Read more"
+         url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
