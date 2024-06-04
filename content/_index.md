@@ -72,9 +72,9 @@ sections:
           description: We are actively recruiting highly motivated students who want to do research in computer architecture and systems. Preferred majors include computer science, computer engineering, and electrical engineering.
         - name: NEWS
           icon: sparkles
-          description: [May 2024] Hyungjin's paper has been accepted to ITC-CSCC 2024. Congratulation!
-
-[March 2024] Sungbin, Jihun, Hyeongjun, Jiyong, Junbum, Minjin and Taejeong have joined our lab. Welcome!
+          description:
+    - [May 2024] Hyungjin's paper has been accepted to ITC-CSCC 2024. Congratulation!
+    - [March 2024] Sungbin, Jihun, Hyeongjun, Jiyong, Junbum, Minjin and Taejeong have joined our lab. Welcome!
         - name: No-Code
           icon: code-bracket
           description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
