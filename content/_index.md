@@ -10,20 +10,20 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: AAAAAA
-      primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
-      secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
-      announcement:
-        text: "Announcing the release of version 1."
-        link:
-          text: "Read more"
-          url: "/blog/"
+      text: Welcome to
+      title: SKKU COMPUTER ARCHITECTURE & SYSTEMS LAB
+      # primary_action:
+      #  text: Get Started
+      #  url: https://hugoblox.com/templates/
+      #  icon: rocket-launch
+      # secondary_action:
+      #  text: Read the docs
+      #  url: https://docs.hugoblox.com
+      # announcement:
+      #  text: "Announcing the release of version 1."
+      #  link:
+      #    text: "Read more"
+      #    url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -37,7 +37,7 @@ sections:
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
-  - block: stats
+  # - block: stats
     content:
       items:
         - statistic: "1M+"
@@ -61,18 +61,24 @@ sections:
   - block: features
     id: features
     content:
-      title: Features
-      text: Build your site with blocks 🧱
+      title: Introduction
+      text: The SKKU Computer Architecture and Systems Lab (COMPASS LAB) is a computer architecture research group in the Department of Electrical and Computer Engineering at SKKU. Our mission is to show the right direction of future computer architectures and systems by conducting fundamental research in processor architectures, memory systems, and hardware/software interaction. We explore novel architectural techniques to improve the performance, energy-efficiency, reliability, and security of computer systems. Our research spans all layers of the computer system stack from application to system software to architecture to circuits for cross-layer optimizations.
       items:
-        - name: Optimized SEO
+        - name: Research Area
           icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
+          description: Processor Architectures, Memory Systems, AI Acceleration with GPU/CPU/FPGA, Domain-Specific Accelerator
+        - name: Notice
           icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
+          description: We are actively recruiting highly motivated students who want to do research in computer architecture and systems. Preferred majors include computer science, computer engineering, and electrical engineering. 
+
+If you want to be a computer architect, please contact me at seokin@skku.edu.
+
+학석사 연계, 석사 및 박사과정 학생을 모집 중입니다. 연구실에 관심있는 학생은 이메일 (seokin@skku.edu)로 연락하세요.
+        - name: NEWS
           icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
+          description: [May 2024] Hyungjin's paper has been accepted to ITC-CSCC 2024. Congratulation!
+
+[March 2024] Sungbin, Jihun, Hyeongjun, Jiyong, Junbum, Minjin and Taejeong have joined our lab. Welcome!
         - name: No-Code
           icon: code-bracket
           description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
