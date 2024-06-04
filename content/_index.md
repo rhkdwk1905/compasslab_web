@@ -38,26 +38,26 @@ sections:
           filters:
             brightness: 0.5
   # - block: stats
-    content:
-      items:
-        - statistic: "1M+"
-          description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
-          description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
-          description: |
-            Discord community  
-            for support
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      # Reduce spacing
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
+  #  content:
+  #    items:
+  #      - statistic: "1M+"
+  #        description: |
+  #          Websites built  
+  #          with Hugo Blox
+  #      - statistic: "10k+"
+  #        description: |
+  #          GitHub stars  
+  #          since 2016
+  #      - statistic: "3k+"
+  #        description: |
+  #          Discord community  
+  #          for support
+  #  design:
+  #    # Section background color (CSS class)
+  #    css_class: "bg-gray-100 dark:bg-gray-900"
+  #    # Reduce spacing
+  #    spacing:
+  #      padding: ["1rem", 0, "1rem", 0]
   - block: features
     id: features
     content:
@@ -69,10 +69,10 @@ sections:
           description: Processor Architectures, Memory Systems, AI Acceleration with GPU/CPU/FPGA, Domain-Specific Accelerator
         - name: Notice
           icon: bolt
-          description: We are actively recruiting highly motivated students who want to do research in computer architecture and systems. Preferred majors include computer science, computer engineering, and electrical engineering. 
-
-If you want to be a computer architect, please contact me at seokin@skku.edu.
-
+          description: We are actively recruiting highly motivated students who want to do research in computer architecture and systems. Preferred majors include computer science, computer engineering, and electrical engineering.   
+   
+If you want to be a computer architect, please contact me at seokin@skku.edu.   
+   
 학석사 연계, 석사 및 박사과정 학생을 모집 중입니다. 연구실에 관심있는 학생은 이메일 (seokin@skku.edu)로 연락하세요.
         - name: NEWS
           icon: sparkles
