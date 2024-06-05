@@ -10,20 +10,20 @@ design:
 sections:
   - block: hero
     content:
-      text: Welcome to
-      title: SKKU COMPUTER ARCHITECTURE & SYSTEMS LAB
+      title: Build Your Landing Pages with Hugo Blox
+      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
       primary_action:
-       text: Get Started
-       url: https://hugoblox.com/templates/
-       icon: rocket-launch
+        text: Get Started
+        url: https://hugoblox.com/templates/
+        icon: rocket-launch
       secondary_action:
-       text: Read the docs
-       url: https://docs.hugoblox.com
+        text: Read the docs
+        url: https://docs.hugoblox.com
       announcement:
-       text: "Announcing the release of version 1."
-       link:
-         text: "Read more"
-         url: "/blog/"
+        text: "Announcing the release of version 1."
+        link:
+          text: "Read more"
+          url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -38,43 +38,41 @@ sections:
           filters:
             brightness: 0.5
   - block: stats
-   content:
-     items:
-       - statistic: "1M+"
-         description: |
-           Websites built  
-           with Hugo Blox
-       - statistic: "10k+"
-         description: |
-           GitHub stars  
-           since 2016
-       - statistic: "3k+"
-         description: |
-           Discord community  
-           for support
-   design:
-     # Section background color (CSS class)
-     css_class: "bg-gray-100 dark:bg-gray-900"
-     # Reduce spacing
-     spacing:
-       padding: ["1rem", 0, "1rem", 0]
+    content:
+      items:
+        - statistic: "1M+"
+          description: |
+            Websites built  
+            with Hugo Blox
+        - statistic: "10k+"
+          description: |
+            GitHub stars  
+            since 2016
+        - statistic: "3k+"
+          description: |
+            Discord community  
+            for support
+    design:
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"
+      # Reduce spacing
+      spacing:
+        padding: ["1rem", 0, "1rem", 0]
   - block: features
     id: features
     content:
-      title: Introduction
-      text: The SKKU Computer Architecture and Systems Lab (COMPASS LAB) is a computer architecture research group in the Department of Electrical and Computer Engineering at SKKU. Our mission is to show the right direction of future computer architectures and systems by conducting fundamental research in processor architectures, memory systems, and hardware/software interaction. We explore novel architectural techniques to improve the performance, energy-efficiency, reliability, and security of computer systems. Our research spans all layers of the computer system stack from application to system software to architecture to circuits for cross-layer optimizations.
+      title: Features
+      text: Build your site with blocks 🧱
       items:
-        - name: Research Area
+        - name: Optimized SEO
           icon: magnifying-glass
-          description: Processor Architectures, Memory Systems, AI Acceleration with GPU/CPU/FPGA, Domain-Specific Accelerator
-        - name: Notice
+          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
+        - name: Fast
           icon: bolt
-          description: We are actively recruiting highly motivated students who want to do research in computer architecture and systems. Preferred majors include computer science, computer engineering, and electrical engineering.
-        - name: NEWS
+          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
+        - name: Easy
           icon: sparkles
-          description:
-    - [May 2024] Hyungjin's paper has been accepted to ITC-CSCC 2024. Congratulation!
-    - [March 2024] Sungbin, Jihun, Hyeongjun, Jiyong, Junbum, Minjin and Taejeong have joined our lab. Welcome!
+          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
         - name: No-Code
           icon: code-bracket
           description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.

@@ -21,12 +21,3 @@ main:
     - parent: Resources
       name: Blog
       url: blog/
-  - name: Schedule
-    weight: 50
-    hasChildren: true
-  - name: Memories
-    weight: 60
-    hasChildren: true
-  - name: Lab Seminar
-    weight: 70
-    hasChildren: true
